@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="assets/images/calculator.png" rel="icon">
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style-header.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <div id="in-h-div">
+                <img src="assets/images/calculator.png" alt="Calculator" id="h-img">
+                <h1 id="h1">Calculator</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="main-div">
+            <input id="inp" type="text">
+            <table>
+                <tr>
+                    <td><button onclick='addToField("%")' id="butt_percent" class="butt">%</button></td>
+                    <td><button onclick='addToField("**")' id="butt_power" class="butt">x<sup>x</sup></button></td>
+                    <td><button onclick='clearField()' id="butt_clear" class="butt">C</button></td>
+                    <td><button onclick='addToField("*")' id="butt_m" class="butt">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick='addToField("7")' id="butt_7" class="butt">7</button></td>
+                    <td><button onclick='addToField("8")' id="butt_8" class="butt">8</button></td>
+                    <td><button onclick='addToField("9")' id="butt_9" class="butt">9</button></td>
+                    <td><button onclick='addToField("/")' id="butt_t" class="butt"><b>÷</b></button></td>
+                </tr>
+                <tr>
+                    <td><button onclick='addToField("4")' id="butt_4" class="butt">4</button></td>
+                    <td><button onclick='addToField("5")' id="butt_5" class="butt">5</button></td>
+                    <td><button onclick='addToField("6")' id="butt_6" class="butt">6</button></td>
+                    <td><button onclick='addToField("+")' id="butt_plus" class="butt">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick='addToField("1")' id="butt_1" class="butt">1</button></td>
+                    <td><button onclick='addToField("2")' id="butt_2" class="butt">2</button></td>
+                    <td><button onclick='addToField("3")' id="butt_3" class="butt">3</button></td>
+                    <td><button onclick='addToField("-")' id="butt_minus" class="butt">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick='addToField("0")' id="butt_0" class="butt">0</button></td>
+                    <td><button onclick='addToField("(")' id="butt_po" class="butt">(</button></td>
+                    <td><button onclick='addToField(")")' id="butt_po" class="butt">)</button></td>
+                    <td><button onclick='equal()' id="butt_equals" class="butt">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src=" script.js"></script>
+</body>
+
+</html>

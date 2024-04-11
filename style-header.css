@@ -1,0 +1,29 @@
+header {
+  position: sticky;
+  top: 5px;
+}
+
+#header-div {
+  display: flex;
+  background-color: #272727;
+  border-radius: 30px;
+  height: 35px;
+  padding: 10px;
+  box-shadow: 0px 0px 15px -2px #272727;
+}
+#h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+  color: #ffba00;
+  margin-left: 6px;
+}
+#in-h-div {
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  display: flex;
+}
+#h-img {
+  height: 25px;
+}

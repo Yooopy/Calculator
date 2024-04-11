@@ -1,0 +1,81 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #909090;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #505050;
+}
+body {
+  background-color: #fffbf0;
+}
+
+#main-div {
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: white;
+  height: 20;
+  border-radius: 20px;
+  box-shadow: 0px 1px 35px -20px #242424;
+  height: 500px;
+  width: 90%;
+}
+table {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.butt {
+  margin: 1px 0px 1px 0px;
+  background-color: #242424;
+  color: #ffba00;
+  width: 80px;
+  height: 65px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: none;
+  box-shadow: 0px 0px 20px -5px #242424;
+}
+#butt_equals {
+  background-color: #ffba00;
+  color: #242424;
+  font-size: 25px;
+}
+
+
+.butt:hover {
+  background-color: #383838;
+  transition:  0.5s ease;
+  animation: scale 0.2s forwards;
+}
+
+#inp {
+  background-color: rgb(219, 219, 219);
+  border: none;
+  border-color: #242424;
+  border-radius: 20px;
+  height: 90px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-shadow: 0px 0px 15px -10px black;
+}
+
+@keyframes scale {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.1;
+  }
+}
