@@ -27,3 +27,8 @@ header {
 #h-img {
   height: 25px;
 }
+
+#git-icon:hover {
+  transition: all 0.2s ease-out;
+  transform: scale(1.2);
+}
